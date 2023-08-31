@@ -276,7 +276,7 @@ genmenu(
     "BoomboxGun",
     "Breaker",
     "BatSaber",
-    "Dead Ringer",
+    "DeadRinger",
     "",
     "",
     "",
@@ -827,7 +827,7 @@ local function hotkeyGiver(v)
         elseif v == k3 then
             itemGiver("BatSaber")
         elseif v == k4 then
-            itemGiver("Dead Ringer")
+            itemGiver("DeadRinger")
        end
 
 
