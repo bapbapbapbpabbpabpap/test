@@ -277,8 +277,8 @@ genmenu(
     "Breaker",
     "BatSaber",
     "DeadRinger",
-    "",
-    "",
+    "MiniPopper",
+    "TwistPopper",
     "",
     "< Back -",
     "- Page 3 -"
@@ -828,6 +828,10 @@ local function hotkeyGiver(v)
             itemGiver("BatSaber")
         elseif v == k4 then
             itemGiver("DeadRinger")
+        elseif v == k5 then
+            itemGiver("MiniPopper")
+        elseif v == k6 then
+            itemGiver("TwistPopper")
        end
 
 
